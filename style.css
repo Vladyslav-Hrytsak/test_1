@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding-top: 90px;
+    background: #EFF0F3;
+
+}
+
+/*---------Header, Nav---------*/
+
+.container{
+    width: 1252px;
+    margin: 0 auto;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 22px 0 20px 0;
+    background: #EFF0F3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow:  4px 6px 13px 0px rgba(214.62,214.62,214.62,0.25);
+    z-index: 1000;
+}
+
+nav h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #001858;
+}
+
+nav h2>span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #6246EA;
+}
+
+.nav__left-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav__left-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav button{
+    width: 213px;
+    height: 44px;
+
+    gap: 10px;
+    padding: 10px 17px 10px 17px;
+    border-radius: 4px;
+    background: #6246EA;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFE;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+nav>div>ul>li:nth-child(4)::before{
+    content: url("img/icon.svg");
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin: 4px 10px 0 0;
+}
+
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 185px;
+}
+
+.header__text-section h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    text-transform: capitalize;
+    width: 617px;
+    color: #2B2C34;
+}
+
+.header__text-section p{
+    width: 652px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #9A9494;
+    margin: 30px 0;
+
+    position: relative;
+    padding-left: 20px;
+}
+
+.header__text-section p::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #2B2C34;
+    border-radius: 2px;
+}
+
+.header-form input{
+    width: 444px;
+    height: 67px;
+    opacity: 1;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    border: none;
+    padding-left: 27px
+
+}
+
+.header-form button{
+    width: 145px;
+    height: 67px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #6246EA;
+
+    color: #FFFFFE;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    text-transform: capitalize;
+}
