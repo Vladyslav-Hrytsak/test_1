@@ -33,7 +33,7 @@ nav{
     z-index: 1000;
 }
 
-nav h2 {
+nav h2, .logo {
     font-size: 36px;
     font-weight: 600;
     color: #001858;
@@ -90,7 +90,7 @@ nav>div>ul>li:nth-child(4)::before{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 185px;
+    margin: 185px 0 284px 0;
 }
 
 .header__text-section h1{
@@ -152,4 +152,246 @@ nav>div>ul>li:nth-child(4)::before{
     font-size: 20px;
     line-height: 100%;
     text-transform: capitalize;
+}
+
+.section__top-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 53px;
+}
+
+.card-section-top{
+    margin-top: 69px;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: #2B2C34;
+}
+
+.section-subtitle{
+    font-weight: 700;
+    font-size: 20px;
+    color: #2B2C34;
+}
+
+.section-subtitle::after{
+    content: url("img/Vector.svg");
+    display: inline-block;
+    width: 6px;
+    height: 14px;
+    border-width: 0.3px;
+    margin-left: 12px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 37px;
+    padding-bottom: 68px;
+}
+
+.card{
+    width: 220px;
+    height: 280px;
+    background: #FFFFFE;
+    border-radius: 8px;
+    box-shadow: 4px 6px 13px 0 #D7D7D740;
+    transition: 2s;
+}
+
+.card img{
+    margin: 65px 0 30px 30px;
+}
+
+.card p{
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.card:hover{
+    background: #6246EA;
+    transition: 2s;
+}
+
+.skills-cards{
+    background: #FFFFFE;
+}
+
+.skills-cards-top{
+    padding: 80px 0 53px 0;
+    margin: 0;
+}
+
+.skills-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills-card{
+    width: 300px;
+    height: 425px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 2s;
+}
+
+.skills-card:hover{
+    box-shadow: 4px 6px 13px 0 #D7D7D740;
+    transition: 2s;
+}
+
+.skills-card-img{
+    padding: 20px 20px 25px 20px;
+}
+
+.skills-card-title{
+    width: 260px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #0D0D0D;
+    line-height: 100%;
+    height: 75px;
+    margin-bottom: 30px;
+}
+
+.skills-card__bottom-content{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.skills-card__bottom-text-content__title{
+    font-weight: 600;
+    font-size: 16px;
+    color: #2B2C34;
+    margin-bottom: 4px;
+}
+
+.skills-card__bottom-text-content__subtitle{
+    font-weight: 400;
+    font-size: 14px;
+    color: #2A2A2A;
+}
+
+.skills-card__bottom-text-content__subtitle span{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 14px;
+}
+
+.skills-cards__button{
+    width: 165px;
+    height: 64px;
+    display: block;
+    margin: 80px auto;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #6246EA;
+
+    color: #FFFFFE;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.subscribe__content{
+    text-align: center;
+    padding: 81px 0 58px 0;
+}
+
+.subscribe-title{
+    font-weight: 700;
+    font-size: 36px;
+    color: #2B2C34;
+    margin: 30px 0 10px 0;
+}
+
+.subscribe-subtile{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #C0C0C0;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #E4E5E9;
+}
+
+.footer-logo{
+    margin: 0;
+    padding: 0;
+}
+
+.logo>span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #6246EA;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.footer__columns-content{
+    display: flex;
+    gap: 95px;
+}
+
+.column-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-title{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.column-content a{
+    font-weight: 400;
+    font-size: 18px;
+    color: #2B2C34;
+    margin-bottom: 20px;
+}
+
+.footer__aside p{
+    margin: 20px 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: #2B2C34;
+}
+
+.media-links{
+    display: flex;
+    gap: 30px;
+}
+
+hr{
+    margin: 30px 0 26px 0;
+}
+
+.footer-bottom{
+    font-weight: 400;
+    font-size: 14px;
+    color: #2B2C34;
+    padding-bottom: 26px;
 }
