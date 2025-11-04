@@ -76,7 +76,7 @@ nav button{
     align-items: flex-start;
 }
 
-nav>div>ul>li:nth-child(4)::before{
+.search::before{
     content: url("img/icon.svg");
     display: inline-block;
     width: 17px;
@@ -216,6 +216,7 @@ nav>div>ul>li:nth-child(4)::before{
 .card:hover{
     background: #6246EA;
     transition: 2s;
+    color: #FFFFFE;
 }
 
 .skills-cards{
