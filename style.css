@@ -6,9 +6,7 @@ body{
     background: #EFF0F3;
 
 }
-
-/*---------Header, Nav---------*/
-
+/*-----------Header---------*/
 .container{
     width: 1252px;
     margin: 0 auto;
@@ -153,6 +151,8 @@ nav>div>ul>li:nth-child(4)::before{
     line-height: 100%;
     text-transform: capitalize;
 }
+
+/*-----------Main---------*/
 
 .section__top-content{
     display: flex;
@@ -324,6 +324,8 @@ nav>div>ul>li:nth-child(4)::before{
     color: #C0C0C0;
     margin-bottom: 30px;
 }
+
+/*-----------Footer---------*/
 
 footer{
     background-color: #E4E5E9;

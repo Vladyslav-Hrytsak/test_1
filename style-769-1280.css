@@ -1,0 +1,207 @@
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+
+    .container {
+        width: 760px;
+    }
+
+    .nav-content h2 {
+        font-size: 24px;
+    }
+
+    .logo span {
+        font-size: 10px;
+    }
+
+    .nav__left-links ul li {
+        font-size: 12px;
+    }
+
+    .nav__left-links button {
+        width: 143px;
+        height: 32px;
+        font-size: 12px;
+        padding: 10px 9px 5px 9px;
+
+    }
+
+    button svg {
+        width: 16px;
+        height: 16px;
+
+    }
+
+    body {
+        padding-top: 20px;
+
+    }
+
+    .header__text-section {
+        width: 300px;
+    }
+
+    .header-section img {
+        width: 300px;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+
+
+    .header__text-section h1 {
+        font-size: 28px;
+        max-width: 100%;
+    }
+
+    .header__text-section p {
+        max-width: 100%;
+        font-size: 14px;
+        margin: 30px 0;
+        padding-left: 20px;
+    }
+
+    .header-form {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-form input {
+        width: 100%;
+        height: 40px;
+        margin-right: 10px;
+        font-size: 14px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .header-form button {
+        width: 30%;
+        height: 30px;
+
+        font-size: 14px;
+    }
+
+    .header-section {
+        margin: 100px 0 180px 0;
+    }
+
+    .section-title {
+        font-size: 16px;
+    }
+
+    .section-subtitle {
+        font-size: 16px;
+    }
+
+    .section-subtitle::after {
+        width: 4px;
+        height: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .card {
+        width: 160px;
+        height: 200px;
+
+    }
+
+    .cards {
+        gap: 20px
+    }
+
+    .card p {
+        margin-left: 30px;
+        font-size: 16px;
+    }
+
+    .card img {
+        margin: 40px 0 20px 30px;
+    }
+
+    .skills-card {
+        width: 200px;
+        height: 280px;
+    }
+
+    .skills-card-title {
+        width: 80%;
+        font-size: 14px;
+        height: 50px;
+    }
+
+    .skills-card__bottom-content img {
+        width: 38px;
+        height: 38px;
+    }
+
+    .skills-card__bottom-text-content__title {
+        font-size: 12px;
+        margin-bottom: 4px;
+    }
+
+    .skills-card__bottom-text-content__subtitle {
+        font-size: 10px;
+    }
+
+    .skills-card__bottom-text-content__subtitle span {
+        font-size: 18px;
+        padding: 0 4px;
+    }
+
+    .skills-cards__button {
+        width: 110px;
+        height: 42px;
+        margin: 50px auto;
+        font-size: 14px;
+    }
+
+    .subscribe__content img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .subscribe-title {
+        font-size: 24px;
+    }
+
+    .subscribe-subtile {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .header-form .small-input {
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    .header-form .small-button {
+        margin: 0 auto;
+    }
+
+    .footer__columns-content {
+        gap: 40px;
+    }
+
+    .column-content a {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+
+    .footer-title {
+        font-size: 14px;
+        margin-bottom: 18px;
+    }
+
+    .footer__aside p {
+        font-size: 12px;
+    }
+
+    .media-links a svg{
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer-bottom {
+        font-size: 10px;
+    }
+}
